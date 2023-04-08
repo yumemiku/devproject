@@ -76,3 +76,13 @@
   a:hover {
     color: black;
   }
+
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  figcaption {
+    text-align: center;
+    margin: 10px;
+  }
