@@ -1,0 +1,78 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  body {
+    background-image: url(../images/background.jpg);
+    background-color: pink
+  }
+   
+   
+  h1 {
+    color: #ad5290;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 40px;
+  }
+   
+   
+  p, 
+  li {
+    font-size: 22px;
+    color: #502a43;
+    list-style: square;
+    list-style-position: inside;
+  }
+
+  .introduction {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+   
+  .learning {
+    text-align: center;
+    margin-bottom: 3px;
+  }
+
+  .list {
+    list-style: square;
+    border: 2px  #ad5290;
+    border-radius: 25px;
+    margin: auto auto 50px auto;
+    width: 20%;
+    text-align: justify;
+    list-style-position: inside;
+    padding: 10px;
+  }
+
+  h2 {
+    color: #ad5290;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .projects {
+    border: 3px dotted #76295e;
+    border-radius: 35px;
+    margin: 60px auto;
+    margin: 30px auto;
+    text-align: justify;
+    width: 50%;
+    list-style: square;
+    padding: 10px 0;
+  }
+   
+  .links {
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px;
+  }
+
+  a {
+    text-decoration:wavy;
+    color: #76295e;
+  }
+
+  a:hover {
+    color: black;
+  }
