@@ -7,6 +7,32 @@
     background-color: pink
   }
    
+  #navbar {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    top: 2px;
+    justify-content: flex-start;
+    
+  }
+
+  #navbar>li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  #navbar>li>a {
+ text-decoration: none;
+  }
+
+  #navbar>li>a:hover {
+    color: #ffe6ff;
+  }
    
   h1 {
     color: #ad5290;
@@ -22,6 +48,7 @@
     color: #502a43;
     list-style: square;
     list-style-position: inside;
+    margin-top: 10px;
   }
 
   .introduction {
@@ -57,7 +84,6 @@
     border: 3px dotted #76295e;
     border-radius: 35px;
     margin: 60px auto;
-    margin: 30px auto;
     text-align: justify;
     width: 50%;
     list-style: square;
